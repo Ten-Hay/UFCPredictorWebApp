@@ -1,0 +1,19 @@
+.footer {
+    background-color: #d91a2a;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text {
+    margin: 0;
+    font-size: 2rem;
+}

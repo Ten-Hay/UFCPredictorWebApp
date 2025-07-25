@@ -1,0 +1,77 @@
+.container {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Exo 2", sans-serif;
+    background-color: #f9f9f9;
+}
+
+.left {
+    width: 50%;
+    padding-left: 4rem;
+}
+
+.title{
+    font-size: 5.5rem;
+}
+
+.button{
+    margin-top: 3rem;
+    font-size: 2rem;
+    background-color: #d91a2a;
+    color: white;
+    border-radius: 1000rem;
+    padding: 0.5rem 0rem;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: translateY(-0.25rem);
+    box-shadow: -5px 5px black;
+}
+
+.button:active{
+    transform: translateY(0.25rem);
+    transform: translateX(-0.25rem);
+    box-shadow: none;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+.square1, .square2, .square3, .square4, .square5, .square6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-10deg);
+    background-color: #1a1a1a;
+    aspect-ratio: 1/1;
+    width: 95%;
+}
+
+.square1{
+    transform: rotate(70deg);
+    width: 75%;
+}
+
+.square2, .square4, .square6{
+    background-color: #f9f9f9;
+}
+
+.champ{
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+    transform: rotate(-10deg);
+}

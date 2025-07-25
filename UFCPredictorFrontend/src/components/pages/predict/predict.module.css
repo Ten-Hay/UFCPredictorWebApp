@@ -1,0 +1,262 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    font-family: "Exo 2", sans-serif;
+    justify-content: center;
+     background: 
+        linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.693)),
+        url("https://www.betonline.ag/news-room/wp-content/uploads/2024/04/ufcSatdium.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 60vw;
+    height: 65vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem;
+    background-color: white;
+}
+
+.progress {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.dotEmpty {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.25rem solid #d91a2a;
+    margin-right: 0.5rem;
+}
+
+.dotFill {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.25rem solid #d91a2a;
+    margin-right: 0.5rem;
+    background-color: #d91a2a;
+}
+
+.dotDisabled {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.25rem solid #ce9398;
+    margin-right: 0.5rem;
+}
+
+.dashEmpty {
+    flex: 1;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #ccc;
+    margin: 0rem 3rem;
+}
+
+.dashFill {
+    flex: 1;
+    height: 5px;
+    border-radius: 100px;
+    background-color: black;
+    margin: 0rem 3rem;
+}
+
+.titleActive {
+    color: black;
+}
+
+.titleDisabled {
+    color: rgb(170, 170, 170);
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0rem;
+}
+
+.label {
+    font-size: 2rem;
+    padding-right: 1.5rem;
+    margin-top: 1rem;
+}
+
+.contentLabel {
+    padding-left: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.options {
+    flex: 1;
+    margin-right: 4rem;
+    margin-top: 0.5rem;
+}
+
+.enter {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    border-radius: 0rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+.dropdown {
+    border: 1px solid black;
+    position: absolute;
+    width: auto;
+    z-index: 1000;
+    background-color: white;
+}
+
+.dropdownItem:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.dropdownItem {
+    font-size: 1.5rem;
+    border-bottom: #ccc 1px solid;
+    padding: 1rem 3rem;
+}
+
+.dropdownItem:hover {
+    cursor: pointer;
+}
+
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next,
+.back {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    font-size: 1.75rem;
+    float: right;
+    background-color: #ce9398;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+.next:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+    background-color: #d91a2a;
+    transform: translateY(-0.25rem);
+    box-shadow: -5px 5px black;
+}
+
+.next:active {
+    transform: translateY(0.25rem);
+    transform: translateX(-0.25rem);
+    box-shadow: none;
+}
+
+.back:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+    background-color: #d91a2a;
+    transform: translateY(-0.25rem);
+    box-shadow: +5px 5px black;
+}
+
+.back:active {
+    transform: translateY(0.25rem);
+    transform: translateX(0.25rem);
+    box-shadow: none;
+}
+
+.vsTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.versus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.vs {
+    font-weight: 700;
+}
+
+.one,
+.two {
+    flex: 1;
+    text-align: center;
+}
+
+.vsItem {
+    margin-bottom: 1.3rem;
+}
+
+.winnerReveal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.winner {
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(90deg,rgba(217, 26, 42, 1) 0%, rgba(87, 15, 92, 1) 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
